@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fonts & Colours Challenge</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="fonts_colors_challenge.css">
+    </head>
+<body>
+    <header>
+    <h1>Registration Form</h1>
+    </header>
+<section>
+    <article>
+        <form>
+            User ID:
+            <input type="text" name="firstname" minlength="5" maxlength="12" required>
+            <br>
+
+            Password:
+            <input type="password" name="password" minlength="7" maxlength="12" required>
+            <br>
+
+            Name:
+            <input type="text" name="firstname" pattern="[A-Za-z]" required>
+            <br>
+
+            Address:
+            <input type="text" name="Address" value="Optional">
+            <br>
+
+            Country:
+            <select name="country" required>
+                <option value="" selected>Please select a country</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Swaziland">Swaziland</option>
+                <option value="Lesotho">Lesotho</option>
+            </select>
+
+            <br>
+            Zip Code:
+            <input type="text" pattern="[0-9]" name="zip_code" required>
+            <br>
+
+            Email:
+            <input type="email" name="valid email" autocomplete="off" required>
+            <br>
+
+            Sex:
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female <br>
+            <br>
+
+            Language:
+            <input type="checkbox" checked>English 
+            <input type="checkbox"> Non-English
+            <br>
+
+            About: <br>
+            <textarea name="message" rows="10" cols="30">Optional</textarea>
+            <br>
+
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </article>
+</section>
+</body>
+</html>
