@@ -1,66 +1,90 @@
 
 .navbar {
-    margin: 0 0 0 0;
-    font-size: 100%;
+    background-color: pink;
     width: 100%;
-    background-color: lightgray;
 }
 
 .navbar ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    list-style: none;
 }
 
 .navbar li {
-    float: left;
+    display: inline-block;
+    margin-right: 70px;
 }
 
-.menu li a {
-    display: block;
-    padding: 14px 16px;
+.navbar li a {
     text-decoration: none;
-    text-align: center;
+    color: black;
 }
 
 body {
-    font-family: Segoe UI;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
     margin: auto;
-    max-width: 100%;
 }
 
-h1 {
-    font-size: 30px;
+.content {
+    width: 100%;
+    background-color: greenyellow;
+    overflow: auto;
+    display: flex;
 }
 
-#recipe-images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#pancakemain {
+    float: left;
 }
 
 .nutritiontable {
-    width: 60%;
+    display: inline;
 }
 
-.nutritiontable td, th {
+.nutritiontable, th, td {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
 }
-
-.nutritiontable tr: :nth-child(even)
-{background-color: #f2f2f2;}
 
 .nutritiontable th {
     padding: 12px;
     padding-bottom: 12px;
-    text-align: left;
-    background-color: lightgray;
+    text-align: center;
+    background-color: lightgrey;
     color: black;
 }
 
-.social-media {
-    width: 50px;
-    height: 50px;
+.instructions {
+    clear: both;
+    background-color: yellow;
 }
 
+#ingrdients {
+    width: 35%;
+    float: left;
+}
+
+#directions {
+    display: inline-block;
+    background-color: blue;
+    width: 40%;
+}
+
+#recipeimages {
+    clear: both;
+}
+.lessons {
+    background-color: orange;
+}
+
+#aboutme {
+    background-color: red;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
